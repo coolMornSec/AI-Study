@@ -1,0 +1,20 @@
+{
+  "name": "search-content-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "instart": "npx @modelcontextprotocol/inspector node src/mcp-content/search-content-server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "根据提示词返回搜索结果",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "axios": "^1.7.9",
+    "zod": "^3.23.8"
+  }
+}
